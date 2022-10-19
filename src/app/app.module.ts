@@ -11,6 +11,7 @@ import { HomeComponent } from './home/home.component';
 import { AddstudentComponent } from './addstudent/addstudent.component';
 import { AddfacultyComponent } from './addfaculty/addfaculty.component';
 import { ViewallStudentComponent } from './viewall-student/viewall-student.component';
+import { ViewallFacultyComponent } from './viewall-faculty/viewall-faculty.component';
 
 const routes:Routes=[
   {
@@ -29,7 +30,8 @@ path:'',component:LoginComponent
     HomeComponent,
     AddstudentComponent,
     AddfacultyComponent,
-    ViewallStudentComponent
+    ViewallStudentComponent,
+    ViewallFacultyComponent
   ],
   imports: [
     BrowserModule,
