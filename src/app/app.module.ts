@@ -10,6 +10,7 @@ import { FormsModule } from '@angular/forms';
 import { HomeComponent } from './home/home.component';
 import { AddstudentComponent } from './addstudent/addstudent.component';
 import { AddfacultyComponent } from './addfaculty/addfaculty.component';
+import { ViewallStudentComponent } from './viewall-student/viewall-student.component';
 
 const routes:Routes=[
   {
@@ -27,7 +28,8 @@ path:'',component:LoginComponent
     LoginComponent,
     HomeComponent,
     AddstudentComponent,
-    AddfacultyComponent
+    AddfacultyComponent,
+    ViewallStudentComponent
   ],
   imports: [
     BrowserModule,
